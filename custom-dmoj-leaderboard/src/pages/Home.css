@@ -1,0 +1,121 @@
+.light{
+    .glass1{
+        background-color: rgba(255,255,255,0.2);
+        backdrop-filter: blur(10px);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .glass1:hover{
+        transform: scale(1.01);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.dark{
+    .glass1{
+        background-color: rgba(255,255,255,0.1);
+        backdrop-filter: blur(10px);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .glass1:hover{
+        transform: scale(1.01);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    } 
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    .title{
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 50%;
+        padding: 20px;
+    }
+
+
+    .homework-table{
+        margin: auto;
+        margin-top: 3%;
+        width: 60%;
+    }
+
+    .table-title{
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .table-box{
+        text-align: center;
+    }
+
+    table td, table th {
+        /* Adjust the value as per your desired spacing */
+       padding: 10px;
+   }
+
+
+    .table-entry{
+        color: rgba(1, 115, 255, 1);
+        font-size: large;
+        text-decoration: underline;
+        width: 100%;
+    }
+
+    .admin-btn{
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .title{
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 50%;
+        padding: 20px;
+    }
+
+
+    .homework-table{
+        margin: auto;
+        margin-top: 3%;
+        width: 80%;
+    }
+
+    .table-title{
+        text-align: center;
+        font-size: large;
+        margin: auto;
+    }
+
+    .table-box{
+        text-align: center;
+    }
+
+    .table-entry{
+        color: rgba(1, 115, 255, 1);
+        font-size: medium;
+        text-decoration: underline;
+        width: 100%;
+        padding: 10px;
+    }
+
+    table td, table th {
+        /* Adjust the value as per your desired spacing */
+       padding: 10px;
+   }
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
