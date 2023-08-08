@@ -405,7 +405,7 @@ app.post('/deleteProblem', async (req, res) => {
 
     const docRef = db.collection(table_id).doc('problems');
 
-    problemDocRef.get()
+    docRef.get()
         .then((doc) => {
             if (doc.exists) {
                 const problems = doc.data()['problem_ids']; 

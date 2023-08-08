@@ -159,7 +159,7 @@ export default function Admin() {
           </h1>
 
           <h2>
-            Table ID
+            Leaderboard ID
           </h2>
           <input
             class='glass text1'
@@ -184,7 +184,7 @@ export default function Admin() {
             Click to log in
           </button>
           <button onClick = {createTable} class="glass" id="log-button">
-            Click to create table
+            Click to create leaderboard
           </button>
         </div>
       </div>
@@ -198,7 +198,7 @@ export default function Admin() {
           <div class='admin-subbox'>
             <div class='admin-subbox-group'>
               <h1 class='glass section-title'>
-                Table ID: {tableId}
+                Leaderboard ID: {tableId}
               </h1>
               
             </div>
